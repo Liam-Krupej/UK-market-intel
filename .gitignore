@@ -1,0 +1,27 @@
+# Python environment & dependencies
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Local Security & Credentials
+.env
+secret_token.txt
+keys.json
+
+# DuckDB Local Storage
+*.db
+*.db.wal
+
+# dbt runtime artifacts
+target/
+dbt_packages/
+logs/
+
+# Power BI temporary user files
+*.pbit
+*.pbix.user
+
+# Operating System junk
+.DS_Store
+Thumbs.db
